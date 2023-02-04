@@ -1,0 +1,39 @@
+/* hero section */
+
+.hero {
+    background-color: #fefaf5;
+    display: flex;
+    padding: 6.75rem 5rem;
+    margin-top: .5rem;
+
+    &__content {
+        margin-top: .75rem;
+        width: 50%;
+    }
+
+    &__header {
+        color: #335576;
+        font-size: 2.25rem;
+    }
+
+    &__paragraph {
+        color: #335576;
+        font-size: 0.875rem;
+        margin: 2.25rem 0rem;
+    }
+
+    &__get__started__button {
+        color: #ffffff;
+        font-size: 0.875rem;
+        text-decoration: none;
+        background-color: #db7a4e;
+        padding: 0.5rem 2.375rem;
+        border-radius: 25rem;
+    }
+
+    &__img > img {
+        width: 27rem;
+        margin-left: 8rem;
+    }
+
+}

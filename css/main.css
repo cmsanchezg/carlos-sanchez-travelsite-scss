@@ -1,1 +1,32 @@
-/*# sourceMappingURL=main.css.map */
+/* hero section */
+.hero {
+  background-color: #fefaf5;
+  display: flex;
+  padding: 6.75rem 5rem;
+  margin-top: 0.5rem;
+}
+.hero__content {
+  margin-top: 0.75rem;
+  width: 50%;
+}
+.hero__header {
+  color: #335576;
+  font-size: 2.25rem;
+}
+.hero__paragraph {
+  color: #335576;
+  font-size: 0.875rem;
+  margin: 2.25rem 0rem;
+}
+.hero__get__started__button {
+  color: #ffffff;
+  font-size: 0.875rem;
+  text-decoration: none;
+  background-color: #db7a4e;
+  padding: 0.5rem 2.375rem;
+  border-radius: 25rem;
+}
+.hero__img > img {
+  width: 27rem;
+  margin-left: 8rem;
+}/*# sourceMappingURL=main.css.map */
