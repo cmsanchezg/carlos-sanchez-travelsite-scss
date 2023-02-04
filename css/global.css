@@ -1,1 +1,35 @@
-/*# sourceMappingURL=global.css.map */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+}
+
+.nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  position: fixed;
+  top: 0;
+  width: 90vw;
+}
+.nav__text {
+  color: #335576;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav__links {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+}
+.nav__item > a {
+  color: black;
+  font-size: 14px;
+  margin: 0px 10px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+.nav__item--active {
+  border-bottom: 2.5px solid #db7a4e;
+}/*# sourceMappingURL=global.css.map */
